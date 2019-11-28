@@ -13,7 +13,7 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnRandomAnimal", startDelay, 1.5f);
+        Invoke ("SpawnRandomAnimal", startDelay, 1.5f);
     }
 
     // Update is called once per frame
